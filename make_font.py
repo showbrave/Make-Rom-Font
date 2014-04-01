@@ -10,7 +10,7 @@ File Header: 	BF [2 bytes]
 Glyphs Table: 	[ data position[2 bytes], width [1 byte] ] x Glyph Count
 Glyphs Data:	(Glyph data) x Actual Glyph count
 
-GlyphDataSize: FontHeight / 8 x FontHeight / 8
+GlyphDataSize: (FontWidthMaximum + 7) / 8 x FontHeight / 8
 """
 
 import sys, Image, ImageDraw, ImageFont
