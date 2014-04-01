@@ -4,6 +4,7 @@ Make-Rom-Font
 Create binary ROM font data for Chinese or other languages.
 
 此词库被应用于微信点餐系统的打印机中。
+http://blog.csdn.net/xhy/article/details/22719853
 
 生成的字库优点
 ------------
@@ -42,7 +43,7 @@ Windows系统，安装 Python 2.7 和 PIL 库（ Python Image Library），下�
 字库使用
 -------
 
-# 初始化字体
+### 初始化字体
 
 	/**
 	 * The font info.
@@ -83,7 +84,7 @@ Windows系统，安装 Python 2.7 和 PIL 库（ Python Image Library），下�
 		return 1;
 	}
 
-# 寻址读字体
+### 寻址读字体
 
 在单片机程序中，通过下面的方式寻址读字体：
 
